@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  WallColor
+//  IsraelColor
 //
 //  Created by Israel Hammon on 2/24/17.
 //  Copyright © 2017 Israel Hammon. All rights reserved.

@@ -202,7 +202,7 @@
 				TargetAttributes = {
 					5893B46A1E608C4700C5AF3B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7LKSMJNK38;
+						DevelopmentTeam = 64643K84XW;
 						ProvisioningStyle = Automatic;
 					};
 					5893B47E1E608C4700C5AF3B = {
@@ -424,10 +424,10 @@
 		5893B4941E608C4700C5AF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 7LKSMJNK38;
+				DEVELOPMENT_TEAM = 64643K84XW;
 				INFOPLIST_FILE = IsraelColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.IsraelColor;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.israelcolor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -436,10 +436,10 @@
 		5893B4951E608C4700C5AF3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 7LKSMJNK38;
+				DEVELOPMENT_TEAM = 64643K84XW;
 				INFOPLIST_FILE = IsraelColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.IsraelColor;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.israelcolor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

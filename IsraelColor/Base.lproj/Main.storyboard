@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WallColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IsraelColor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -76,7 +76,7 @@
         <!--Image Display View Controller-->
         <scene sceneID="PQi-87-UNX">
             <objects>
-                <viewController id="Aoo-Dt-T0l" customClass="ImageDisplayViewController" customModule="WallColor" sceneMemberID="viewController">
+                <viewController id="Aoo-Dt-T0l" customClass="ImageDisplayViewController" customModule="IsraelColor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iOW-qF-fug"/>
                         <viewControllerLayoutGuide type="bottom" id="6Zt-y3-gfe"/>
@@ -91,7 +91,7 @@
                                 <items>
                                     <barButtonItem title="Back" id="muu-I2-5vg">
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="showDetail" id="NFO-W2-iTp"/>
+                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="DisplayImage" id="NFO-W2-iTp"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="Next" id="Xr2-4b-x7l">
@@ -156,12 +156,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOp-lA-baL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120.8" y="871.21439280359823"/>
+            <point key="canvasLocation" x="134" y="866"/>
         </scene>
         <!--Compatible Color Controller-->
         <scene sceneID="oYi-IR-jmY">
             <objects>
-                <viewController id="0ta-QV-w3E" customClass="CompatibleColorController" customModule="WallColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0ta-QV-w3E" customClass="CompatibleColorController" customModule="IsraelColor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2OX-W2-dpE"/>
                         <viewControllerLayoutGuide type="bottom" id="IJK-lq-TFZ"/>
@@ -266,6 +266,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YDc-0h-34B"/>
+        <segue reference="m3y-D4-cK7"/>
     </inferredMetricsTieBreakers>
 </document>
